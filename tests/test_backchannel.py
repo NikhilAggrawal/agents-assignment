@@ -1,4 +1,4 @@
-from yourmodule.agent_activity import AgentActivity
+from livekit.agent_activity import AgentActivity
 
 def test_soft_backchannel():
     a = object.__new__(AgentActivity)  # bypass __init__
